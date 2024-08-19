@@ -17,4 +17,63 @@ html {
   font-family: "Manrope", sans-serif;
 }
 body {
+  font-size: 13px;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  background-color: var(--Light-Grayish-Blue);
+}
+main {
+  display: flex;
+  height: 300px;
+  width: 800px;
+  background-color: white;
+  border-radius: 1.3rem;
+  overflow: hidden;
+}
+article {
+  margin: 3.5rem;
+}
+article h1 {
+  font-weight: 700;
+  font-size: 1.7rem;
+  color: var(--Very-Dark-Grayish-Blue);
+}
+article > p:first-of-type {
+  margin: 1rem 0;
+  color: var(--Desaturated-Dark-Blue);
+  font-weight: 500;
+  font-size: 1.09rem;
+}
+.main-image {
+  width: 800px;
+  background-image: url(images/drawers.jpg);
+  background-size: cover;
+  background-position: right -95px top;
+}
+footer {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+footer .info {
+  display: flex;
+  flex-direction: column;
+}
+footer img:first-of-type {
+  border-radius: 50%;
+  height: 50px;
+}
+footer p:first-of-type{
+  font-weight: 700;
+  color: var(--Very-Dark-Grayish-Blue);
+}
+footer p {
+  font-weight: 500;
+  color: var(--Desaturated-Dark-Blue);
+}
+.share-icon{
+  width: 20px; 
+  height: 20px;
+  fill: white;
 }
